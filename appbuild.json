@@ -1,0 +1,19 @@
+{
+	"groups":[
+		{
+			"name":"base-info",
+			"variables":[
+				{
+					"name": "artifactId",
+					"defaultValue":"demo-service",
+					"description":"project artifactId,a-z or - allowed",
+					"options": null,
+					"pattern":null
+				}
+			]
+		}
+	],
+	"features":[],
+	"excludes":["*.jpg", "*.sh"],
+	"parser":"simple"
+}
